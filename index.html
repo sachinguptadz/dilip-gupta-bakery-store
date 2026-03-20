@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Dilip Gupta Bakery | Fresh Cookies, Cakes, Bread & Sweets – Bachhrawan</title>
+  <meta name="description"
+    content="Bachhrawan ki number 1 bakery — handmade cookies, fresh bread, cupcakes, custom cakes, chocolates, dalmot, chips aur village treats. Same-day cake orders accepted." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- CURSOR -->
+  <div id="cur"></div>
+  <div id="cur2"></div>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="ld-icon">🍪</div>
+    <div class="ld-name">Dilip Gupta Bakery</div>
+    <div class="ld-bar">
+      <div class="ld-fill"></div>
+    </div>
+  </div>
+
+  <!-- MOBILE STICKY BAR -->
+  <div class="mob-bar" id="mobBar">
+    <a href="tel:+917071878792" class="mb-call">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path
+          d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012.08 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.09 6.09l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z" />
+      </svg>
+      Call
+    </a>
+    <a href="https://wa.me/917071878792" class="mb-wa" target="_blank" rel="noopener">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+      </svg>
+      WhatsApp
+    </a>
+    <a href="#contact" class="mb-visit">📍 Visit</a>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="logo-glyph">
+          <img src="images/logo.png" alt="Dilip Gupta Bakery Store" style="height:50px;">
+        </div>
+        <div class="logo-words">
+          <span class="logo-t">Dilip Gupta Bakery</span>
+          <span class="logo-s">Bachhrawan, UP</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#products" class="nav-a">Products</a>
+        <a href="#custom-cake" class="nav-a">Custom Cakes</a>
+        <a href="#about" class="nav-a">About</a>
+        <a href="#testimonials" class="nav-a">Reviews</a>
+        <a href="#faq" class="nav-a">FAQ</a>
+        <a href="#contact" class="nav-a">Contact</a>
+      </div>
+      <a href="https://wa.me/917071878792?text=Cake order karna hai" class="nav-cta" target="_blank"
+        rel="noopener">Order on WhatsApp</a>
+      <button class="ham" id="ham" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mob-nav" id="mobNav">
+      <a href="#products" class="mob-a">🍪 Products</a>
+      <a href="#custom-cake" class="mob-a">🎂 Custom Cakes</a>
+      <a href="#about" class="mob-a">🏪 About Us</a>
+      <a href="#how-it-works" class="mob-a">📋 How It Works</a>
+      <a href="#testimonials" class="mob-a">⭐ Reviews</a>
+      <a href="#faq" class="mob-a">❓ FAQ</a>
+      <a href="#contact" class="mob-a">📞 Contact</a>
+      <a href="https://wa.me/917071878792?text=Order karna hai" class="mob-cta-btn" target="_blank" rel="noopener">💬
+        Order on WhatsApp →</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-orbs">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+    </div>
+    <div class="hero-grid"></div>
+    <div class="float-emojis">
+      <div class="fe">🍪</div>
+      <div class="fe">🎂</div>
+      <div class="fe">🍫</div>
+      <div class="fe">🧁</div>
+      <div class="fe">🍞</div>
+      <div class="fe">🍬</div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-pill">
+        <span class="hero-pill-dot"></span>
+        Bachhrawan ki #1 Bakery — Since 2000 • Same-Day Cake Orders
+      </div>
+      <h1 class="hero-h1">
+        <span class="ln">Fresh Cookies,</span>
+        <span class="ln">Cakes & Sweets</span>
+        <span class="ln">Rozana Taza • Ghar Jaisi Quality</span>
+      </h1>
+      <p class="hero-p">Handmade bakery biscuits & cookies, fresh breads, cupcakes, custom cakes, chocolates, dalmot,
+        village treats aur children ki favorite churan-goli — sab ek hi jagah, Bachhrawan mein.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn-gold">
+          <span>View Products</span>
+          <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href="#custom-cake" class="btn-ghost">
+          <span>Order Custom Cake</span>
+          <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="st">
+          <div class="st-n"><span data-count="1000">0</span>+</div>
+          <div class="st-l">Happy Customers</div>
+        </div>
+        <div class="st-div"></div>
+        <div class="st">
+          <div class="st-n"><span data-count="50">0</span>+</div>
+          <div class="st-l">Products Daily</div>
+        </div>
+        <div class="st-div"></div>
+        <div class="st">
+          <div class="st-n"><span data-count="25">0</span>+</div>
+          <div class="st-l">Years of Trust</div>
+        </div>
+        <div class="st-div"></div>
+        <div class="st">
+          <div class="st-n"><span data-count="7">0</span></div>
+          <div class="st-l">Days Open Weekly</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-pipe">
+        <div class="scroll-pip"></div>
+      </div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="tick-track">
+      <span>Bakery Cookies ✦</span><span>Butter Biscuits ✦</span><span>Bread ✦</span><span>Bun ✦</span>
+      <span>Elaichi Rusk ✦</span><span>Cupcakes ✦</span><span>Custom Cakes ✦</span><span>Chocolates ✦</span>
+      <span>Dalmot ✦</span><span>Chips & Kurkure ✦</span><span>Toffee & Candy ✦</span><span>Churan Gola ✦</span>
+      <span>Imli Packet ✦</span><span>Khatti Meethi Goli ✦</span><span>Village Treats ✦</span><span>Same-Day Cake
+        ✦</span>
+      <span>Bakery Cookies ✦</span><span>Butter Biscuits ✦</span><span>Bread ✦</span><span>Bun ✦</span>
+      <span>Elaichi Rusk ✦</span><span>Cupcakes ✦</span><span>Custom Cakes ✦</span><span>Chocolates ✦</span>
+      <span>Dalmot ✦</span><span>Chips & Kurkure ✦</span><span>Toffee & Candy ✦</span><span>Churan Gola ✦</span>
+      <span>Imli Packet ✦</span><span>Khatti Meethi Goli ✦</span><span>Village Treats ✦</span><span>Same-Day Cake
+        ✦</span>
+    </div>
+  </div>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-inner">
+      <div class="mq-item">
+        <div class="mq-icon">🍪</div>
+        <div class="mq-text">Handmade Bakery Cookies</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🎂</div>
+        <div class="mq-text">Same-Day Custom Cakes</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🍞</div>
+        <div class="mq-text">Fresh Bread Every Morning</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🍫</div>
+        <div class="mq-text">All Chocolate Brands</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🌶️</div>
+        <div class="mq-text">Village Churan & Goli</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">💰</div>
+        <div class="mq-text">Starting from ₹5</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">⭐</div>
+        <div class="mq-text">Trusted Since 2000</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🥔</div>
+        <div class="mq-text">All Famous Chip Brands</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🍪</div>
+        <div class="mq-text">Handmade Bakery Cookies</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🎂</div>
+        <div class="mq-text">Same-Day Custom Cakes</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🍞</div>
+        <div class="mq-text">Fresh Bread Every Morning</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🍫</div>
+        <div class="mq-text">All Chocolate Brands</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🌶️</div>
+        <div class="mq-text">Village Churan & Goli</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">💰</div>
+        <div class="mq-text">Starting from ₹5</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">⭐</div>
+        <div class="mq-text">Trusted Since 2000</div>
+      </div>
+      <div class="mq-item">
+        <div class="mq-icon">🥔</div>
+        <div class="mq-text">All Famous Chip Brands</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <section class="sec prod-sec" id="products">
+    <div class="sec-in">
+      <div class="sec-head rv">
+        <div class="stag">Our Products</div>
+        <h2 class="sh2">Sab Kuch Ek Jagah,<br><em>Rozana Taza</em></h2>
+        <p class="sdesc">Handmade bakery cookies se lekar custom cakes, dalmot, village churan aur famous chips brands —
+          sab available hain Bachhrawan ke beehad mein.</p>
+      </div>
+
+      <div class="filters rv">
+        <button class="fb act" data-f="all">✦ All</button>
+        <button class="fb" data-f="biscuits">🍪 Cookies & Biscuits</button>
+        <button class="fb" data-f="bread">🍞 Bread & Bun</button>
+        <button class="fb" data-f="cake">🎂 Cakes & Cupcakes</button>
+        <button class="fb" data-f="chocolate">🍫 Chocolates</button>
+        <button class="fb" data-f="candy">🍬 Toffee & Candy</button>
+        <button class="fb" data-f="chips">🥔 Chips & Kurkure</button>
+        <button class="fb" data-f="dalmot">🫘 Dalmot</button>
+        <button class="fb" data-f="village">🌶️ Village Treats</button>
+      </div>
+      <p class="prod-count rv">Showing <strong id="visCount">22</strong> products</p>
+
+      <div class="pgrid" id="pgrid">
+
+        <!-- ── BISCUITS & COOKIES ── -->
+        <div class="gc pc feat rv" data-cat="biscuits">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🍪</span></div>
+            <div class="pc-info">
+              <div class="pc-cat">Bakery Cookies</div>
+              <h3>Handmade Bakery Cookies</h3>
+              <p>Our specialty — freshly baked butter cookies, atta cookies, coconut cookies, and seasonal flavors made
+                in-house daily. Crispy, golden aur bilkul ghar jaisi taste. Brand biscuits se zyada tasty guaranteed!
+              </p>
+              <div class="pc-price">10 – 60 per 100g</div>
+            </div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Fresh Baked Daily</div>
+            <a href="https://wa.me/917071878792?text=Bakery cookies order karne hain" class="pc-wa" target="_blank"
+              rel="noopener">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+              Order
+            </a>
+          </div>
+        </div>
+
+        <div class="gc pc rv" data-cat="biscuits">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🫙</span></div>
+            <div class="pc-cat">Brand Biscuits</div>
+            <h3>Company Brand Biscuits</h3>
+            <p>Parle-G, Britannia, Oreo, Marie, Bourbon, Good Day — all popular branded biscuits available in all pack
+              sizes.</p>
+            <div class="pc-price">5 – 80 per pack</div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">All Brands</div>
+            <a href="https://wa.me/917071878792?text=Brand biscuits chahiye" class="pc-wa" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <!-- ── BREAD & BUN ── -->
+        <div class="gc pc rv" data-cat="bread">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🍞</span></div>
+            <div class="pc-cat">Bread</div>
+            <h3>Fresh Bread — Multiple Types</h3>
+            <p>White bread, brown bread, milk bread, atta bread — soft, fresh aur perfect for breakfast. Small, medium &
+              family packs.</p>
+            <div class="pc-price">15 – 45 per loaf</div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Daily Fresh</div>
+            <a href="https://wa.me/917071878792?text=Bread chahiye" class="pc-wa" target="_blank" rel="noopener"><svg
+                viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <div class="gc pc rv" data-cat="bread">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🥐</span></div>
+            <div class="pc-cat">Bun</div>
+            <h3>Butter Bun & Pav</h3>
+            <p>Soft butter bun, dinner pav, and sweet bun — freshly baked, light & fluffy. Perfect for school & evening
+              snack.</p>
+            <div class="pc-price">5 – 20 per piece</div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Kids Favorite</div>
+            <a href="https://wa.me/917071878792?text=Bun chahiye" class="pc-wa" target="_blank" rel="noopener"><svg
+                viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <div class="gc pc rv" data-cat="bread">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🫓</span></div>
+            <div class="pc-cat">Rusk</div>
+            <h3>Elaichi Rusk — Multiple Types</h3>
+            <p>Crispy elaichi rusk, plain rusk, jeera rusk, sweet rusk, and cake rusk — the perfect chai companion
+              available daily.</p>
+            <div class="pc-price">20 – 70 per pack</div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Chai Special</div>
+            <a href="https://wa.me/917071878792?text=Rusk chahiye" class="pc-wa" target="_blank" rel="noopener"><svg
+                viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <!-- ── CAKES & CUPCAKES ── -->
+        <div class="gc pc feat rv" data-cat="cake">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🎂</span></div>
+            <div class="pc-info">
+              <div class="pc-cat">Custom Cake</div>
+              <h3>Custom Cakes — Same Day Ready</h3>
+              <p>Birthday cakes, anniversary cakes, photo cakes, theme cakes — aap design batao, hum same day mein bana
+                denge. Vanilla, chocolate, butterscotch, red velvet, black forest flavors available. Shop se pick up
+                karein.</p>
+              <div class="pc-price">400 – 2000 per cake</div>
+              <div class="pc-custom-badge">⚡ Same-Day Pickup Available</div>
+            </div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Order Today, Collect Today</div>
+            <a href="https://wa.me/917071878792?text=Custom cake order karna hai - flavour aur design batana hai"
+              class="pc-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order Now</a>
+          </div>
+        </div>
+
+        <div class="gc pc rv" data-cat="cake">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🧁</span></div>
+            <div class="pc-cat">Cupcakes</div>
+            <h3>Cupcakes</h3>
+            <p>Freshly baked cupcakes in chocolate, vanilla, strawberry & seasonal flavors. Perfect for birthdays and
+              gifting.</p>
+            <div class="pc-price">30 – 80 per piece</div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Fresh Baked</div>
+            <a href="https://wa.me/917071878792?text=Cupcakes order karne hain" class="pc-wa" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <!-- ── CHOCOLATES ── -->
+        <div class="gc pc feat rv" data-cat="chocolate">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🍫</span></div>
+            <div class="pc-info">
+              <div class="pc-cat">Chocolates</div>
+              <h3>Chocolates — All Popular Brands</h3>
+              <p>Dairy Milk, KitKat, 5Star, Munch, Perk, Bounty, Snickers, Gems, Choco Pie — sab available. Single bars,
+                gift packs aur bulk quantities. Birthdays aur festivals ke liye perfect.</p>
+              <div class="pc-price">5 – 500 per bar / pack</div>
+            </div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">All Brands in Stock</div>
+            <a href="https://wa.me/917071878792?text=Chocolates chahiye" class="pc-wa" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <!-- ── TOFFEE & CANDY ── -->
+        <div class="gc pc rv" data-cat="candy">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🍬</span></div>
+            <div class="pc-cat">Toffee & Candy</div>
+            <h3>Toffee, Éclairs & Lollipops</h3>
+            <p>Melody, Alpenliebe, Éclairs, Mango Bite, Pulse, Lollipop, Jelly candy — 50+ varieties always in stock for
+              children.</p>
+            <div class="pc-price">1 – 10 per piece</div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">50+ Varieties</div>
+            <a href="https://wa.me/917071878792?text=Toffee candy chahiye" class="pc-wa" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <!-- ── CHIPS ── -->
+        <div class="gc pc feat rv" data-cat="chips">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🥔</span></div>
+            <div class="pc-info">
+              <div class="pc-cat">Chips & Kurkure</div>
+              <h3>Chips & Kurkure — Famous + Local Brands</h3>
+              <p>Lay's, Kurkure, Uncle Chipps, Bingo, Haldiram's — plus local brand chips jo sirf yahan milti hain. Sab
+                flavors, sab sizes. School tiffin, evening snack sab ke liye perfect.</p>
+              <div class="pc-price">5 – 60 per packet</div>
+            </div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Famous + Local Brands</div>
+            <a href="https://wa.me/917071878792?text=Chips Kurkure chahiye" class="pc-wa" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <!-- ── DALMOT ── -->
+        <div class="gc pc rv" data-cat="dalmot">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🫘</span></div>
+            <div class="pc-cat">Dalmot</div>
+            <h3>Dalmot — All Types</h3>
+            <p>Spicy dalmot, salted dalmot, meetha dalmot, masala dalmot — multiple varieties in bulk or small packs.
+              Perfect chai snack.</p>
+            <div class="pc-price">20 – 120 per pack</div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Multiple Varieties</div>
+            <a href="https://wa.me/917071878792?text=Dalmot chahiye" class="pc-wa" target="_blank" rel="noopener"><svg
+                viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <div class="gc pc rv" data-cat="dalmot">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🌶️</span></div>
+            <div class="pc-cat">Dalmot</div>
+            <h3>Spicy Mixture & Bhujia</h3>
+            <p>Masala mixture, bhujia, chana chur, sev — crispy and spicy snacks for evening munching and chai time.</p>
+            <div class="pc-price">25 – 100 per pack</div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Extra Spicy</div>
+            <a href="https://wa.me/917071878792?text=Mixture Bhujia chahiye" class="pc-wa" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <!-- ── VILLAGE TREATS ── -->
+        <div class="gc pc feat rv" data-cat="village">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🟠</span></div>
+            <div class="pc-info">
+              <div class="pc-cat">Village Treats</div>
+              <h3>Churan, Churan Gola & Imli</h3>
+              <p>Children ki all-time favorite — asli churan, churan gola, khatti meethi goli, imli candy in multiple
+                flavors, imli packet varieties aur traditional village culture snacks jo bachpan yaad dilate hain. Sab
+                types available.</p>
+              <div class="pc-price">1 – 20 per piece / pack</div>
+            </div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Children's Favorite</div>
+            <a href="https://wa.me/917071878792?text=Churan gola imli chahiye" class="pc-wa" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+        <div class="gc pc rv" data-cat="village">
+          <div class="pc-top">
+            <div class="pc-emoji-wrap"><span class="pc-ico">🍭</span></div>
+            <div class="pc-cat">Village Treats</div>
+            <h3>Khatti Meethi Goli</h3>
+            <p>Traditional khatti meethi goli in multiple flavors — raw mango, tamarind, amla, chatpata. Pure village
+              taste.</p>
+            <div class="pc-price">1 – 5 per piece</div>
+          </div>
+          <div class="pc-bottom">
+            <div class="pc-badge">Pure Desi Taste</div>
+            <a href="https://wa.me/917071878792?text=Khatti meethi goli chahiye" class="pc-wa" target="_blank"
+              rel="noopener"><svg viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>Order</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM CAKE BANNER -->
+  <div class="cake-banner" id="custom-cake">
+    <div class="cake-inner">
+      <div class="cake-text">
+        <h2>Custom Cake Order —<br>Same Day Ready! 🎂</h2>
+        <p>Birthday, anniversary, farewell, baby shower — kisi bhi occasion ke liye apni pasand ka cake order karein.
+          Aap design aur flavour batao, hum same day mein bana denge. Shop se pick up karein.</p>
+        <div class="cake-steps">
+          <div class="cake-step">
+            <div class="cs-num">1</div>
+            <div class="cs-text">
+              <strong>WhatsApp par order karein</strong>
+              <span>Flavour, size, aur design ki details bhejein</span>
+            </div>
+          </div>
+          <div class="cake-step">
+            <div class="cs-num">2</div>
+            <div class="cs-text">
+              <strong>Hum confirm karenge</strong>
+              <span>Ready time aur price batayenge — advance payment via UPI</span>
+            </div>
+          </div>
+          <div class="cake-step">
+            <div class="cs-num">3</div>
+            <div class="cs-text">
+              <strong>Same day shop se pick up</strong>
+              <span>Taza, sunder, aur delicious cake aapka intezaar karega</span>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/917071878792?text=Custom cake order karna hai - birthday cake chahiye" class="btn-gold"
+          style="margin-top:24px;color:var(--dark)" target="_blank" rel="noopener">
+          <span>Order Custom Cake Now</span>
+          <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.5">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+      <div class="cake-emojis">
+        <div class="cake-e">🎂</div>
+        <div class="cake-e">🍫</div>
+        <div class="cake-e">🧁</div>
+        <div class="cake-e">🍓</div>
+        <div class="cake-e">🎉</div>
+        <div class="cake-e">🍰</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OWNER STORY -->
+  <section class="sec owner-sec" id="about">
+    <div class="sec-in">
+      <div class="owner-grid rv">
+        <div class="owner-avatar">
+          <div class="owner-img-ring">
+            <div class="owner-img-inner">👨‍🍳</div>
+          </div>
+          <div class="owner-since">Since 2000</div>
+        </div>
+        <div>
+          <div class="stag">Meet the Owner</div>
+          <blockquote class="owner-quote">"Hamari bakery mein jo cheez banati hai woh machine nahi, haath hain — aur
+            unme 25 saal ka pyaar hai."</blockquote>
+          <p class="owner-bio">Main Dilip Gupta hoon — Bachhrawan ka ek simple insaan jo apne sheher ke bachcho aur
+            families ke liye fresh, tasty aur affordable bakery products banana chahta hai. 2000 mein chhoti si dukaan
+            se shuru kiya tha. Aaj hamare paas handmade cookies, custom cakes, fresh bread, dalmot, aur village treats
+            ka ek poora collection hai.</p>
+          <p class="owner-bio">Jo cheez hume sabse alag banati hai — hamare bakery cookies brand biscuits se zyada tasty
+            hain kyunki woh roz fresh bane jaate hain, kisi factory mein nahi. Aur hamare custom cakes same day mein
+            ready ho jaate hain.</p>
+          <div class="owner-name">— Dilip Gupta</div>
+          <div class="owner-title">Founder, Dilip Gupta Bakery Store, Bachhrawan</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMING WIDGET -->
+  <section class="timing-sec">
+    <div class="sec-in">
+      <div class="timing-card gc rv">
+        <div class="tc-left">
+          <div class="tc-label">Opens Every Day At</div>
+          <div class="tc-time">7:00 AM</div>
+          <div class="tc-sub">Fresh bakery items ready from morning</div>
+        </div>
+        <div class="tc-divider"></div>
+        <div class="tc-right">
+          <div class="open-badge" id="openBadge"><span class="open-badge-dot"></span><span
+              id="openText">Checking...</span></div>
+          <div class="tc-label" style="margin-bottom:8px">All Days Open</div>
+          <div class="tc-time" style="font-size:clamp(1.5rem,3vw,2.1rem)">7 AM – 9 PM</div>
+          <div class="days-row" style="margin-top:10px">
+            <span class="day-chip">Mon</span><span class="day-chip">Tue</span><span class="day-chip">Wed</span>
+            <span class="day-chip">Thu</span><span class="day-chip">Fri</span><span class="day-chip">Sat</span><span
+              class="day-chip">Sun</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="sec hiw-sec" id="how-it-works">
+    <div class="sec-in">
+      <div class="sec-head rv">
+        <div class="stag">How It Works</div>
+        <h2 class="sh2">Simple &<br><em>Easy Shopping</em></h2>
+      </div>
+      <div class="steps">
+        <div class="gc step rv">
+          <div class="step-num">Step 01</div>
+          <div class="step-ball">🏪</div>
+          <h3>Visit Our Shop</h3>
+          <p>Main Market, Shivgarh Road, Bachhrawan. Mon–Sun 7 AM–9 PM.</p>
+        </div>
+        <div class="gc step rv">
+          <div class="step-num">Step 02</div>
+          <div class="step-ball">👀</div>
+          <h3>Browse & Choose</h3>
+          <p>Cookies, cakes, chips, chocolates, dalmot, village treats — sab ek jagah milta hai.</p>
+        </div>
+        <div class="gc step rv">
+          <div class="step-num">Step 03</div>
+          <div class="step-ball">🎂</div>
+          <h3>Custom Cake Order</h3>
+          <p>WhatsApp par cake design aur flavour batao — same day mein ready ho jaata hai.</p>
+        </div>
+        <div class="gc step rv">
+          <div class="step-num">Step 04</div>
+          <div class="step-ball">😊</div>
+          <h3>Take Home & Enjoy</h3>
+          <p>Fresh, taza products ghar le jaiye aur apne parivaar ke saath enjoy karein!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="sec why-sec">
+    <div class="sec-in">
+      <div class="sec-head rv">
+        <div class="stag">Why Choose Us</div>
+        <h2 class="sh2">Apni Bakery Ka<br><em>Farkh</em></h2>
+      </div>
+      <div class="why-grid">
+        <div class="gc wc rv">
+          <div class="wc-icon">🍪</div>
+          <h3>Handmade Cookies Daily</h3>
+          <p>Hamare bakery cookies roz fresh bane jaate hain — butter, atta, coconut aur seasonal flavors. Brand se
+            zyada tasty, guaranteed.</p>
+        </div>
+        <div class="gc wc rv">
+          <div class="wc-icon">🎂</div>
+          <h3>Same-Day Custom Cakes</h3>
+          <p>Birthday, anniversary ya koi bhi occasion — cake ka order aaj do, same day shop se pick up karo. Koi extra
+            charges nahi.</p>
+        </div>
+        <div class="gc wc rv">
+          <div class="wc-icon">🌶️</div>
+          <h3>Village Treats for Kids</h3>
+          <p>Churan gola, khatti meethi goli, imli packet — bachpan ke woh desi treats jo aaj bhi baccho ko bahut pasand
+            hain.</p>
+        </div>
+        <div class="gc wc rv">
+          <div class="wc-icon">🥔</div>
+          <h3>Famous + Local Chips</h3>
+          <p>Lay's, Kurkure, Bingo ke saath local brands bhi — woh flavors jo sirf yahan milte hain aur sabse zyada
+            pasand hain.</p>
+        </div>
+        <div class="gc wc rv">
+          <div class="wc-icon">💰</div>
+          <h3>Starting from ₹5</h3>
+          <p>Chaahe ek toffee ho ya ek custom cake — hamare paas sab budget ke liye kuch na kuch zaroor hai.</p>
+        </div>
+        <div class="gc wc rv">
+          <div class="wc-icon">🤝</div>
+          <h3>25 Saal ka Bharosa</h3>
+          <p>Bachhrawan ki families 2000 se hamare customer hain — quality aur freshness mein kabhi compromise nahi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="sec testi-sec" id="testimonials">
+    <div class="sec-in">
+      <div class="sec-head rv">
+        <div class="stag">Reviews</div>
+        <h2 class="sh2">Log Kya<br><em>Kehte Hain</em></h2>
+        <p class="sdesc">Hamare customers ki real reviews — yahi hai hamare kaam ki sabse badi taareef.</p>
+      </div>
+      <div class="t-grid">
+        <div class="gc tc-r rv">
+          <div class="tc-top">
+            <div class="tc-av">RS</div>
+            <div class="tc-meta"><strong>Ramesh Singh</strong><span>Bachhrawan</span></div>
+          </div>
+          <span class="tc-stars">★★★★★</span>
+          <p class="tc-text">"Yahan ke bakery cookies kisi bhi brand biscuit se zyada tasty hain. Roz chai ke saath yehi
+            lete hain. 10 saal se aa rahe hain, quality mein kabhi kami nahi."</p>
+        </div>
+        <div class="gc tc-r feat rv">
+          <div class="tc-top">
+            <div class="tc-av">PK</div>
+            <div class="tc-meta"><strong>Pooja Kumari</strong><span>Regular Customer</span></div>
+          </div>
+          <span class="tc-stars">★★★★★</span>
+          <p class="tc-text">"Beti ke birthday ke liye same-day custom cake order kiya — chocolate truffle cake bilkul
+            waise bana jaise describe kiya tha. Sab ne bahut taarif ki. Shop pickup easy tha. Highly recommended!"</p>
+        </div>
+        <div class="gc tc-r rv">
+          <div class="tc-top">
+            <div class="tc-av">AM</div>
+            <div class="tc-meta"><strong>Amit Mishra</strong><span>Nearby Resident</span></div>
+          </div>
+          <span class="tc-stars">★★★★★</span>
+          <p class="tc-text">"Mere bachche churan gola aur khatti meethi goli ke deewane hain. Roz school ke baad yahan
+            zaroor aate hain. Ek hi jagah sab milta hai — chips bhi, cake bhi, candy bhi."</p>
+        </div>
+        <div class="gc tc-r rv">
+          <div class="tc-top">
+            <div class="tc-av">SK</div>
+            <div class="tc-meta"><strong>Sunita Kesharwani</strong><span>Event Customer</span></div>
+          </div>
+          <span class="tc-stars">★★★★★</span>
+          <p class="tc-text">"Office party ke liye cupcakes aur cookies ka bulk order diya. Sab fresh the, packaging bhi
+            achhi thi. Dilip ji ne personally check karke diya. Bahut reliable bakery hai."</p>
+        </div>
+        <div class="gc tc-r rv">
+          <div class="tc-top">
+            <div class="tc-av">MV</div>
+            <div class="tc-meta"><strong>Meera Verma</strong><span>Daily Customer</span></div>
+          </div>
+          <span class="tc-stars">★★★★★</span>
+          <p class="tc-text">"Subah ki fresh bread aur elaichi rusk ke bina din shuru nahi hota. Kabhi bhi baksi maal
+            nahi mila. Yahan ki elaichi rusk sabse alag hai — kisi brand se zyada achhi."</p>
+        </div>
+        <div class="gc tc-r rv">
+          <div class="tc-top">
+            <div class="tc-av">RG</div>
+            <div class="tc-meta"><strong>Rajesh Gupta</strong><span>School Canteen</span></div>
+          </div>
+          <span class="tc-stars">★★★★★</span>
+          <p class="tc-text">"Mera school canteen yahan se hi stock karta hai — chips, biscuits, cookies, dalmot, imli.
+            Sab baccho ko bahut pasand hai. Rate bhi sahi aur supply reliable hai."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-sec">
+    <div class="sec-in">
+      <div class="sec-head rv">
+        <div class="stag">Our Bakery</div>
+        <h2 class="sh2">Hamare<br><em>Products</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gi">
+          <div class="gi-inner">
+            <img src="https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Fresh Cookies and Biscuits"
+              onerror="this.style.display='none';this.parentNode.querySelector('.gi-fallback').style.display='flex'" />
+            <div class="gi-fallback" style="display:none">🍪</div>
+          </div>
+          <div class="gi-label"><span class="gi-cat">Cookies & Biscuits</span>Handmade Bakery Cookies</div>
+        </div>
+        <div class="gi">
+          <div class="gi-inner">
+            <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Birthday Cake"
+              onerror="this.style.display='none';this.parentNode.querySelector('.gi-fallback').style.display='flex'" />
+            <div class="gi-fallback" style="display:none">🎂</div>
+          </div>
+          <div class="gi-label"><span class="gi-cat">Custom Cakes</span>Birthday & Special Cakes</div>
+        </div>
+        <div class="gi">
+          <div class="gi-inner">
+            <img
+              src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Cupcakes"
+              onerror="this.style.display='none';this.parentNode.querySelector('.gi-fallback').style.display='flex'" />
+            <div class="gi-fallback" style="display:none">🧁</div>
+          </div>
+          <div class="gi-label"><span class="gi-cat">Cupcakes</span>Fresh Cupcakes Daily</div>
+        </div>
+        <div class="gi">
+          <div class="gi-inner">
+            <img src="https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Chocolates"
+              onerror="this.style.display='none';this.parentNode.querySelector('.gi-fallback').style.display='flex'" />
+            <div class="gi-fallback" style="display:none">🍫</div>
+          </div>
+          <div class="gi-label"><span class="gi-cat">Chocolates</span>All Popular Brands</div>
+        </div>
+        <div class="gi">
+          <div class="gi-inner">
+            <img
+              src="https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Chips and Snacks"
+              onerror="this.style.display='none';this.parentNode.querySelector('.gi-fallback').style.display='flex'" />
+            <div class="gi-fallback" style="display:none">🥔</div>
+          </div>
+          <div class="gi-label"><span class="gi-cat">Chips & Kurkure</span>Famous + Local Brands</div>
+        </div>
+        <div class="gi">
+          <div class="gi-inner">
+            <img
+              src="https://images.pexels.com/photos/3693271/pexels-photo-3693271.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Bread"
+              onerror="this.style.display='none';this.parentNode.querySelector('.gi-fallback').style.display='flex'" />
+            <div class="gi-fallback" style="display:none">🍞</div>
+          </div>
+          <div class="gi-label"><span class="gi-cat">Bread & Rusk</span>Fresh Bread & Elaichi Rusk</div>
+        </div>
+        <div class="gi">
+          <div class="gi-inner">
+            <img
+              src="https://images.pexels.com/photos/1387070/pexels-photo-1387070.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Candy and Toffee"
+              onerror="this.style.display='none';this.parentNode.querySelector('.gi-fallback').style.display='flex'" />
+            <div class="gi-fallback" style="display:none">🍬</div>
+          </div>
+          <div class="gi-label"><span class="gi-cat">Candy & Village Treats</span>Churan, Imli & Toffee</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="sec faq-sec" id="faq">
+    <div class="sec-in">
+      <div class="sec-head rv">
+        <div class="stag">FAQ</div>
+        <h2 class="sh2">Aapke Sawaal,<br><em>Hamare Jawaab</em></h2>
+        <p class="sdesc">Custom cakes aur orders ke baare mein common questions ke jawaab yahan hain.</p>
+      </div>
+      <div class="faq-grid">
+        <div class="gc faq-item rv">
+          <div class="faq-q">Custom cake ka order kaise karein?<span class="faq-icon">+</span></div>
+          <div class="faq-a">WhatsApp par +91 9876543210 pe message karein — cake ka flavour (chocolate, vanilla,
+            butterscotch, red velvet, black forest), size (500g se 2kg), aur koi special design ya message batayein. Hum
+            price aur ready time confirm karenge.</div>
+        </div>
+        <div class="gc faq-item rv">
+          <div class="faq-q">Same-day cake kab tak ready ho jaata hai?<span class="faq-icon">+</span></div>
+          <div class="faq-a">Agar order subah 10 baje tak aa jaaye toh cake sham 5-6 baje tak ready ho jaata hai. Rush
+            orders ke liye phone par pehle confirm karein. Shop se pickup karna hoga.</div>
+        </div>
+        <div class="gc faq-item rv">
+          <div class="faq-q">Kya aap home delivery karte hain?<span class="faq-icon">+</span></div>
+          <div class="faq-a">Abhi hum home delivery nahi karte — sirf shop se pickup available hai. Hamare WhatsApp par
+            order karke apna pickup time confirm karein.</div>
+        </div>
+        <div class="gc faq-item rv">
+          <div class="faq-q">Bakery cookies aur brand biscuits mein kya farkh hai?<span class="faq-icon">+</span></div>
+          <div class="faq-a">Hamare bakery cookies roz fresh bake hote hain — no preservatives, no packaging. Butter
+            cookies, atta cookies, coconut cookies sab fresh mein milte hain. Taste mein brand biscuits se kahi zyada
+            better hain.</div>
+        </div>
+        <div class="gc faq-item rv">
+          <div class="faq-q">Bulk ya event orders accept karte hain?<span class="faq-icon">+</span></div>
+          <div class="faq-a">Haan! School canteen, office events, birthday parties ke liye bulk orders accepted hain.
+            ₹500 se upar ke orders par special rates milenge. Pehle se 1 din advance notice dein.</div>
+        </div>
+        <div class="gc faq-item rv">
+          <div class="faq-q">Payment ke kya options hain?<span class="faq-icon">+</span></div>
+          <div class="faq-a">Cash, UPI (Google Pay, PhonePe, Paytm) sab accept karte hain. Custom cake orders mein
+            advance payment required hoti hai.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="sec contact-sec" id="contact">
+    <div class="sec-in">
+      <div class="sec-head rv">
+        <div class="stag">Find Us</div>
+        <h2 class="sh2">Aaiye, Hamare<br><em>Bakery Par</em></h2>
+        <p class="sdesc">Fresh cookies, custom cakes, dalmot aur village treats ke liye aaj hi aaiye. 7 AM se 9 PM khule
+          hain, saal ke 365 din.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="rv">
+          <div class="info-block">
+            <div class="ib">
+              <div class="ib-icon">📍</div>
+              <div><strong>Address</strong>
+                <p>Dilip Gupta Bakery Store, Main Market,<br>Shivgarh Road, Bachhrawan, UP – 229301</p>
+              </div>
+            </div>
+            <div class="ib">
+              <div class="ib-icon">📞</div>
+              <div><strong>Phone</strong>
+                <p><a href="tel:+917071878792">+91 9876543210</a></p>
+              </div>
+            </div>
+            <div class="ib">
+              <div class="ib-icon">💬</div>
+              <div><strong>WhatsApp</strong>
+                <p><a href="https://wa.me/917071878792" target="_blank" rel="noopener">Chat & Order on WhatsApp</a></p>
+              </div>
+            </div>
+            <div class="ib">
+              <div class="ib-icon">🕐</div>
+              <div><strong>Timings</strong>
+                <p>Monday – Sunday<br>7:00 AM – 9:00 PM (365 days open)</p>
+              </div>
+            </div>
+            <div class="ib">
+              <div class="ib-icon">💳</div>
+              <div><strong>Payment</strong>
+                <p>Cash, UPI — Google Pay, PhonePe, Paytm</p>
+              </div>
+            </div>
+          </div>
+          <div class="socials">
+            <a href="#" class="soc-a" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24"
+                fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg></a>
+            <a href="#" class="soc-a" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none" />
+              </svg></a>
+            <a href="https://wa.me/917071878792" class="soc-a wa" aria-label="WhatsApp"><svg width="17" height="17"
+                viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg></a>
+            <a href="tel:+917071878792" class="soc-a" aria-label="Call"><svg width="17" height="17" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.07 1.18 2 2 0 012.08 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.09 6.09l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="rv">
+          <div class="cf">
+            <h3>Kuch Poochna Hai?</h3>
+            <form id="cform" novalidate>
+              <div class="fg"><label for="cname">Aapka Naam *</label><input type="text" id="cname"
+                  placeholder="Full name likhein" required autocomplete="name" /></div>
+              <div class="fg"><label for="cmob">Mobile Number *</label><input type="tel" id="cmob"
+                  placeholder="+91 XXXXX XXXXX" required autocomplete="tel" /></div>
+              <div class="fg">
+                <label for="cprod">Kya Chahiye?</label>
+                <select id="cprod">
+                  <option value="">Select karein</option>
+                  <option>Bakery Cookies / Biscuits</option>
+                  <option>Custom Cake Order</option>
+                  <option>Cupcakes</option>
+                  <option>Fresh Bread / Bun / Rusk</option>
+                  <option>Chocolates</option>
+                  <option>Chips & Kurkure</option>
+                  <option>Dalmot & Snacks</option>
+                  <option>Village Treats (Churan, Imli, Goli)</option>
+                  <option>Toffee & Candy</option>
+                  <option>Bulk / Event Order</option>
+                </select>
+              </div>
+              <div class="fg"><label for="cmsg">Message</label><textarea id="cmsg" rows="4"
+                  placeholder="Custom cake hai toh flavour, size aur design batayein..."></textarea></div>
+              <p class="form-note">💡 Custom cake orders ke liye WhatsApp pe sampark karna zyada fast hai.</p>
+              <button type="submit" class="btn-gold" style="width:100%;justify-content:center;padding:14px">
+                <span>Send Message</span>
+                <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5">
+                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+                </svg>
+              </button>
+              <div class="form-ok" id="formOk">✅ Message mila! Hum jald hi sampark karenge.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <div class="map-sec">
+    <div class="map-overlay">
+      <div class="map-info-card">
+        <div class="mic-icon">📍</div>
+        <div class="mic-text">
+          <strong>Dilip Gupta Bakery Store</strong>
+          <span>Main Market, Shivgarh Road,<br>Bachhrawan, UP – 229301</span>
+          <a href="https://maps.google.com/?q=F4C7%2BP4+Bachhrawan,+Uttar+Pradesh" target="_blank" rel="noopener"
+            class="mic-btn">Open in Google Maps →</a>
+        </div>
+      </div>
+    </div>
+    <iframe src="https://maps.google.com/maps?q=F4C7%2BP4+Bachhrawan+Uttar+Pradesh&output=embed&z=16" width="100%"
+      height="100%" style="border:0;display:block;filter:invert(88%) hue-rotate(180deg) saturate(0.35) brightness(0.88)"
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dilip Gupta Bakery Location">
+    </iframe>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">
+          <div class="logo-glyph">🍪</div>
+          <div class="logo-words"><span class="logo-t">Dilip Gupta Bakery</span><span class="logo-s">Bachhrawan,
+              UP</span></div>
+        </a>
+        <p>Handmade cookies, custom cakes, fresh bread, chocolates, dalmot aur village treats — Bachhrawan ki #1 bakery.
+          Since 2000.</p>
+        <div class="footer-socs">
+          <a href="#" class="fsc" aria-label="Facebook">f</a>
+          <a href="#" class="fsc" aria-label="Instagram">ig</a>
+          <a href="https://wa.me/917071878792" class="fsc" aria-label="WhatsApp">wa</a>
+        </div>
+      </div>
+      <div class="fc">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="#products">Bakery Cookies</a></li>
+          <li><a href="#products">Fresh Bread & Bun</a></li>
+          <li><a href="#products">Elaichi Rusk</a></li>
+          <li><a href="#products">Cupcakes & Cakes</a></li>
+          <li><a href="#products">Chocolates</a></li>
+          <li><a href="#products">Chips & Kurkure</a></li>
+          <li><a href="#products">Dalmot</a></li>
+          <li><a href="#products">Churan & Village Treats</a></li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#custom-cake">Custom Cake Order</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+917071878792">📞 +91 9876543210</a></li>
+          <li><a href="https://wa.me/917071878792">💬 WhatsApp Order</a></li>
+          <li><a href="#contact">📍 Bachhrawan, UP</a></li>
+          <li><a href="#faq">❓ FAQ</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bot">
+      <p>© 2025 Dilip Gupta Bakery Store, Bachhrawan. Made with ❤️ for our local community.</p>
+      <a href="#hero" class="btt" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <!-- WA FAB (desktop) -->
+  <a href="https://wa.me/917071878792?text=Order karna hai" class="wa-fab" target="_blank" rel="noopener"
+    aria-label="WhatsApp">
+    <span class="wa-tooltip">Order on WhatsApp</span>
+    <svg viewBox="0 0 24 24">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
